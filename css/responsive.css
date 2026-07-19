@@ -230,7 +230,11 @@
 
   .nav-links {
     top: 106px;
-    width: min(340px, 90%);
+    left: auto;
+    right: -100%;
+    width: 280px;
+    max-width: 85%;
+    height: calc(100vh - 106px);
     padding: 24px;
   }
 
